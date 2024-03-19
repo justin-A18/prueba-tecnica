@@ -55,15 +55,12 @@ Buena suerte y ¡diviértete programando!
 
 ![Desing-2](/desing/desing-2.png)
 
-## Despliegue
+## Procedimiento de Entrega
 
 Para entregar la prueba, sigue los siguientes pasos:
 
 1. Sube tu proyecto al repositorio en GitHub.
-2. Despliega tu aplicación en un servicio de hosting público, como Netlify o Vercel.
-3. Una vez desplegada, obtén la URL pública de tu aplicación.
-4. Agrega la URL de tu aplicación desplegada en el README de tu repositorio.
-5. Comparte el link de tu repositorio por el canal **proyectos** del server de discord **Frontend y Backend ✅**
+2. Comparte el link de tu repositorio por el canal **proyectos** del server de discord **Frontend y Backend ✅**
 
 Una vez completados estos pasos, tu proyecto estará listo para ser evaluado.
 
