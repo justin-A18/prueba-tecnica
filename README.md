@@ -1,6 +1,6 @@
 # Desarrollo de una aplicación de busqueda de usuarios Github
 
-El objetivo de esta prueba es diseñar e implementar una pequeña aplicación web de buscador de usuarios de GitHub utilizando las herramientas de tu elección.
+El objetivo de esta prueba es diseñar e implementar una pequeña aplicación web de buscador de usuarios de GitHub utilizando HTML, CSS, framework CSS **(opcional)**, JavaScript, React **(Opcional)**.
 
 ## Contexto
 
@@ -30,7 +30,7 @@ https://api.github.com/users/{username}/repos
 
 ![Desing-1-first](/desing/desing-1.png)
 
-### Desafíos adicionales (opcional)
+### Desafíos adicionales (opcional, no obligatorio)
 
 **¿Quieres ir más allá?** Estos son algunos desafíos adicionales que puedes intentar:
 
