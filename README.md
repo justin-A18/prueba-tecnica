@@ -60,7 +60,7 @@ Buena suerte y ¡diviértete programando!
 Para entregar la prueba, sigue los siguientes pasos:
 
 1. Sube tu proyecto al repositorio en GitHub.
-2. Comparte el link de tu repositorio por el canal **proyectos** del server de discord [Frontend y Backend✅](https://discord.com/invite/RDMuV37h)
+2. Comparte el link de tu repositorio por el canal **pruebas-técnicas** del server de discord [Frontend y Backend✅](https://discord.com/invite/RDMuV37h)
 
 Una vez completados estos pasos, tu proyecto estará listo para ser evaluado.
 
