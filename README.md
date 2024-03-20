@@ -36,6 +36,8 @@ https://api.github.com/users/{username}/repos
 
 - Mostrar una lista de los repositorios del usuario y mostrar numero de estrellas, forks y licencia.
 
+- Mensajes de error. **Ejm: no se encontro el usuario, no se encontraron los repositorios**.
+
 - Haz que tu aplicación web sea responsive.
 
 ![Desing-1-last](/desing/desing-2.png)
