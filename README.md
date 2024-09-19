@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+# Documentación de Prueba Técnica
+## Descripción del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta prueba técnica consiste en una aplicación para filtrar, buscar y listar países utilizando GraphQL para la gestión de datos y Unsplash para la obtención de imágenes. La aplicación está construida con React, Apollo Client, TypeScript, Zustand, ShadCN React, Axios y Tailwind CSS.
 
-Currently, two official plugins are available:
+[Demo del proyecto](https://prueba-tecnica-paises.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React:** Biblioteca para construir la interfaz de usuario.
+- **Apollo Client:** Cliente GraphQL para la integración con el servidor GraphQL.
+- **TypeScript:** Lenguaje de programación que añade tipado estático a JavaScript.
+- **Zustand:** Biblioteca para la gestión del estado.
+- **ShadCN:** Componentes UI para React.
+- **Axios:** Cliente HTTP para hacer peticiones.
+- **Tailwind CSS:** Framework de CSS para estilos rápidos y responsivos.
+- **GraphQL:** Lenguaje de consulta para APIs.
+- **Unsplash:** API para obtener imágenes de alta calidad.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación y Configuración
 
-- Configure the top-level `parserOptions` property like this:
+1. Clonar el repositorio
+  ```bash
+  git clone https://github.com/justin-A18/prueba-tecnica.git
+  cd prueba-tecnica
+  ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Instalar Dependencias
+  ```bash
+  pnpm install
+  ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. Cambia el nombre al `.env.template` por `.env`
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+4. Edita el `.env` y agraga tu `ACCESS_KEY` de Unsplash
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Funcionalidades
+
+  Filtrado de Países
+    Permite filtrar la lista de países basada en diferentes criterios.
+
+  Buscar Países
+    Implementa una búsqueda dinámica de países utilizando un campo de búsqueda.
+
+  Listar Países
+    Muestra una lista de países con información relevante.
+
+  Obtener Imágenes de Países
+    Usa la API de Unsplash para mostrar imágenes relacionadas con los países.
