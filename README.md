@@ -36,14 +36,14 @@ Esta prueba técnica consiste en una aplicación para filtrar, buscar y listar p
 
 ## Funcionalidades
 
-  Filtrado de Países
-    Permite filtrar la lista de países basada en diferentes criterios.
+  - Filtrado de Países
+    - Permite filtrar la lista de países basada en diferentes criterios.
 
-  Buscar Países
-    Implementa una búsqueda dinámica de países utilizando un campo de búsqueda.
+  - Buscar Países
+    - Implementa una búsqueda dinámica de países utilizando un campo de búsqueda.
 
-  Listar Países
-    Muestra una lista de países con información relevante.
+  - Listar Países
+    - Muestra una lista de países con información relevante.
 
-  Obtener Imágenes de Países
-    Usa la API de Unsplash para mostrar imágenes relacionadas con los países.
+  - Obtener Imágenes de Países
+    - Usa la API de Unsplash para mostrar imágenes relacionadas con los países.
