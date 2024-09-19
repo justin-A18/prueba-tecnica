@@ -3,11 +3,11 @@ import { createBrowserRouter } from 'react-router-dom';
 import { CountriesLayout } from '../layouts/CountriesLayout';
 import { lazy, Suspense } from 'react';
 import { Loader } from '@/components/shared/loader';
+import AboutUsPage from '@/pages/AboutUsPage';
+import HelpPage from '@/pages/HelpPage';
 
 const CountryPage = lazy(() => import('@/pages/CountryPage'));
-const AboutUsPage = lazy(() => import('@/pages/AboutUsPage'));
 const CountriesPage = lazy(() => import('@/pages/CountriesPage'));
-const HelpPage = lazy(() => import('@/pages/HelpPage'));
 
 export const router = createBrowserRouter([
 	{
@@ -25,11 +25,7 @@ export const router = createBrowserRouter([
 			},
 			{
 				path: '/help',
-				element: (
-					<Suspense fallback={<Loader />}>
-						<HelpPage />
-					</Suspense>
-				),
+				element: <HelpPage />,
 			},
 			{
 				path: '/country/:code',
@@ -41,11 +37,7 @@ export const router = createBrowserRouter([
 			},
 			{
 				path: '/about-us',
-				element: (
-					<Suspense fallback={<Loader />}>
-						<AboutUsPage />
-					</Suspense>
-				),
+				element: <AboutUsPage />,
 			},
 		],
 	},
