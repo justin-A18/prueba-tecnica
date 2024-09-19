@@ -6,6 +6,11 @@ export const useImage = (name: string) => {
   const [isLoading, setIsLoading] = useState(true);
 
   const getImage = useCallback(async () => {
+    
+    if(name === "") return
+
+    setIsLoading(true);
+    
     try {
       const response = await getImagesService(name);
       setImage(response.urls.full);
