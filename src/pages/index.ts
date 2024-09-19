@@ -1,4 +1,4 @@
 export * from './CountriesPage'
-export * from './ExplorePage'
+export * from './HelpPage'
 export * from './AboutUsPage'
 export * from './CountryPage'

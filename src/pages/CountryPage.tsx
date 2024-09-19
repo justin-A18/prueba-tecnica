@@ -68,7 +68,7 @@ export const CountryPage = () => {
 
 					<div className='space-y-4'>
 						<div className='flex flex-col gap-2'>
-							<TypographyH4>Languages</TypographyH4>
+							<TypographyH4>Idiomas:</TypographyH4>
 
 							<ul className='px-5'>
 								{data?.country.languages.map((language) => (

@@ -1,11 +1,11 @@
 import { TypographyH1, TypographyP } from '@/components/shared/typography';
 
-export const AboutUsPage = () => {
+export const HelpPage = () => {
 	return (
-		<section className='p-4 space-y-4 max-w-3xl mx-auto'>
+		<section className='p-4 max-w-3xl mx-auto space-y-4'>
 			<header className='space-y-2'>
-				<TypographyH1>Sobre Nosotros</TypographyH1>
-				<TypographyP>Conoce nuestra historia</TypographyP>
+				<TypographyH1>Preguntas Frecuentes</TypographyH1>
+				<TypographyP>Esperamos que esto resuelva algunas de tus dudas</TypographyP>
 			</header>
 
 			<hr className='border-2' />
