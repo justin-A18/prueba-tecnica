@@ -7,7 +7,8 @@ export const useCountry = (code: string) => {
 	const countryQuery = useQuery<CountryFullResponse>(GET_COUNTRY, {
 		variables: {
 			code
-		}
+		},
+		fetchPolicy: 'cache-first',
 	});
 
 	return countryQuery;
