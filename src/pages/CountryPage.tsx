@@ -15,7 +15,7 @@ import { useCountry } from '@/hooks/country/useCountry';
 import { useImage } from '@/hooks/images/useImage';
 import { Loader } from '@/components/shared/loader';
 
-export const CountryPage = () => {
+const CountryPage = () => {
 	const params = useParams();
 
 	const { data, loading } = useCountry(params.code || '');
@@ -101,3 +101,5 @@ export const CountryPage = () => {
 		</section>
 	);
 };
+
+export default CountryPage;

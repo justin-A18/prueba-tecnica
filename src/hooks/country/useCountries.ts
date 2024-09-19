@@ -9,6 +9,7 @@ export const useCountries = (term?: string) => {
 	const countriesQuery = useQuery<CountriesResponse>(query, {
 		variables,
 		skip: !term && query === GET_FILTER_COUNTRIES, 
+		fetchPolicy: 'cache-first',
 	});
 
 	return countriesQuery;

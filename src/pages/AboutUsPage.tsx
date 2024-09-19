@@ -1,6 +1,6 @@
 import { TypographyH1, TypographyP } from '@/components/shared/typography';
 
-export const AboutUsPage = () => {
+const AboutUsPage = () => {
 	return (
 		<section className='p-4 space-y-4 max-w-3xl mx-auto'>
 			<header className='space-y-2'>
@@ -46,3 +46,5 @@ export const AboutUsPage = () => {
 		</section>
 	);
 };
+
+export default AboutUsPage

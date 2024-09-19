@@ -1,6 +1,6 @@
 import { TypographyH1, TypographyP } from '@/components/shared/typography';
 
-export const HelpPage = () => {
+const HelpPage = () => {
 	return (
 		<section className='p-4 max-w-3xl mx-auto space-y-4'>
 			<header className='space-y-2'>
@@ -46,3 +46,5 @@ export const HelpPage = () => {
 		</section>
 	);
 };
+
+export default HelpPage;
